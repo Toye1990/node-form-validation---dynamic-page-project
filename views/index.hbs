@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-1">
+
+    {{>header}}
+       
+     <section class="direct-row">
+         {{#each mapped}}
+        <div class="studentcover">
+        <div class="real-col">
+           <div class="imgbox">
+            <img src={{image}}>
+           </div>
+            <div class="infobox">
+                <h1><a href="/students/{{id}}">{{name}}</a></h1>
+            </div>
+        </div>
+        </div>
+         {{/each}}
+       
+
+
+        <!--<div class="studentcover">
+            <div class="real-col">
+               <div class="imgbox">
+                <img src="/assets/man 10.jpg">
+               </div>
+                <div class="infobox">
+                    <h1>Adeleke Junior</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="studentcover">
+            <div class="real-col">
+               <div class="imgbox">
+                <img src="/assets/man 10.jpg">
+               </div>
+                <div class="infobox">
+                    <h1>Adeleke Junior</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="studentcover">
+            <div class="real-col">
+               <div class="imgbox">
+                <img src="/assets/man 10.jpg">
+               </div>
+                <div class="infobox">
+                    <h1>Adeleke Junior</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="studentcover">
+            <div class="real-col">
+               <div class="imgbox">
+                <img src="/assets/man 10.jpg">
+               </div>
+                <div class="infobox">
+                    <h1>Adeleke Junior</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="studentcover">
+            <div class="real-col">
+               <div class="imgbox">
+                <img src="/assets/man 10.jpg">
+               </div>
+                <div class="infobox">
+                    <h1>Adeleke Junior</h1>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="studentcover">
+            <div class="real-col">
+               <div class="imgbox">
+                <img src="/assets/man 10.jpg">
+               </div>
+                <div class="infobox">
+                    <h1>Adeleke Junior</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="studentcover">
+            <div class="real-col">
+               <div class="imgbox">
+                <img src="/assets/man 10.jpg">
+               </div>
+                <div class="infobox">
+                    <h1>Adeleke Junior</h1>
+                </div>
+            </div>
+        </div>-->
+
+
+    </section>
+</div>
+
+{{>footer}}
+   
+</body>
+</html>

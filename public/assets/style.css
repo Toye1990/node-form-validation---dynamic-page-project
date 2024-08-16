@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'lato', sans-serif;
+}
+
+.container-1{
+    width: 100%;
+    height: 100%;
+    background-color: lightblue;
+    padding-bottom: 30px;
+}
+
+
+header{
+    background-color: rgb(1, 1, 56);
+    width: 100%;
+    height: 15vh;
+    padding-bottom: 50px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+
+.logo{
+    color: white;
+    font-style: italic;
+    font-family: 'exo', sans-serif;   
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 38px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.studentcover{
+    width: 43vh;
+    height: 15vh;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 15px;
+    border-radius: 25px;
+}
+
+.real-col{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    cursor: pointer;
+   
+}
+
+.imgbox img{ 
+    width: 80px;
+}
+
+.infobox h1{
+    font-size: 12px;
+    width: 100px;
+    text-decoration: none;
+}
+
+.infobox h1 a{
+    font-size: 12px;
+    color: #1d1d1d;
+    text-decoration: none
+}
+
+.direct-row{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 60px;
+}
+
+
+.footer-new{
+    background-color: rgb(1, 1, 56);
+    width: 100%;
+    height: 30vh;
+    padding: 30px 40px;
+    color: white;
+    margin-top: 40px;
+}
+
+.footer-tp{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    padding: 0 90px;
+}
+
+
+/*student profile css*/
+
+.profile-cover{
+    display: flex;
+    background-color: white;
+    width: 100vh;
+    height: 65vh;
+    align-items: center;
+    margin: 60px auto;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.all-col{
+ display: flex;
+ align-items: start;
+ flex-direction: row;
+ justify-content: start;
+}
+
+img{
+    margin-right: 25px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.profile-info{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+
+.required{
+    padding: 20px 30px;
+    font-size: 18px;
+    text-align: left;
+    font-weight: bolder;
+    color:  rgb(1, 1, 56);
+}
+
+.required div{
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.info-res{
+    padding: 20px 30px;
+    font-size: 18px;
+}
+
+.info-res div{
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.down-text h2{
+    color:  rgb(1, 1, 56);
+    font-size: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(48, 47, 47);
+}
+
+.down-text p{
+    font-size: 11px;
+}
+
+.model{
+    margin-top: 70px;
+}
+
+
+/*tabledatapage*/
+
+.col{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.col h4{
+    text-align: center;
+    color: rgb(1, 1, 56);
+    font-weight: bolder;
+}
+
+
+.tabletime{
+    margin-top: 50px;
+    width: 70vw;
+    margin-left: 18%;
+    margin-bottom: 20%;
+}
